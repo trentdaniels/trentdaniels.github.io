@@ -31,9 +31,9 @@
             <form id="form">
                 <fieldset>
                     <legend>Contact Form</legend>
-                    <input type="text" placeholder="John Doe"><br>
-                    <input type="email" placeholder="example@example.com"><br>
-                    <textarea placeholder="How can I help you?"></textarea><br>
+                    <input type="text" placeholder="John Doe" v-model="name"><br>
+                    <input type="email" placeholder="example@example.com" v-model="email"><br>
+                    <textarea placeholder="How can I help you?" v-model="message"></textarea><br>
                     <br>
                     <button type="submit" class="btn btn-outline-dark" id="submit">Submit</button>
                 </fieldset>
